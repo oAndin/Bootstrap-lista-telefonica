@@ -1,0 +1,17 @@
+main .navbar .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 44px;
+    height: 44px;
+}
+
+#contatos {
+    width: 100%;
+    overflow: hidden;
+}
+
+#contatos .col:nth-child(odd) {
+    background-color: #00000015;
+}
